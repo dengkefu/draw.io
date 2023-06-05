@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-05T09:05:33.504Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="tcjuk9l6fLvw8zTyhmYA" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-05T09:33:35.538Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="_IYRBEQ2UagLRBE00k8A" version="21.2.1" type="github">
   <diagram name="第 1 页" id="kEsdCzPGTC06tF2OzjXu">
-    <mxGraphModel dx="1195" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -117,6 +117,90 @@
         </mxCell>
         <mxCell id="dWIAZpZKa0cs_iQSi05g-37" value="页面展示" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="680" width="100" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="dWIAZpZKa0cs_iQSi05g-45" value="Linux和Windows中agent的区别概述，以下讨论只针对预定义监控项" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="790" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dWIAZpZKa0cs_iQSi05g-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dWIAZpZKa0cs_iQSi05g-46" target="dWIAZpZKa0cs_iQSi05g-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dWIAZpZKa0cs_iQSi05g-46" value="linux 服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="850" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dWIAZpZKa0cs_iQSi05g-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dWIAZpZKa0cs_iQSi05g-47" target="dWIAZpZKa0cs_iQSi05g-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dWIAZpZKa0cs_iQSi05g-47" value="windows 服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="960" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dWIAZpZKa0cs_iQSi05g-48" value="linux可以通过基础命令，如proc&amp;nbsp; top sys等命令获取相关监控项数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dWIAZpZKa0cs_iQSi05g-50" value="windows可以通过wmi 任务管理器，资源管理器，性能计数器的相关api接口获取数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dWIAZpZKa0cs_iQSi05g-52" value="zabbix各模块间关系概览" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1060" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dWIAZpZKa0cs_iQSi05g-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dWIAZpZKa0cs_iQSi05g-53" target="dWIAZpZKa0cs_iQSi05g-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dWIAZpZKa0cs_iQSi05g-53" value="zabbix server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1110" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dWIAZpZKa0cs_iQSi05g-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dWIAZpZKa0cs_iQSi05g-54" target="dWIAZpZKa0cs_iQSi05g-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dWIAZpZKa0cs_iQSi05g-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dWIAZpZKa0cs_iQSi05g-54" target="dWIAZpZKa0cs_iQSi05g-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="1250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dWIAZpZKa0cs_iQSi05g-54" value="zabbix agent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dWIAZpZKa0cs_iQSi05g-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dWIAZpZKa0cs_iQSi05g-55" target="dWIAZpZKa0cs_iQSi05g-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dWIAZpZKa0cs_iQSi05g-55" value="database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1270" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dWIAZpZKa0cs_iQSi05g-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dWIAZpZKa0cs_iQSi05g-56" target="dWIAZpZKa0cs_iQSi05g-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dWIAZpZKa0cs_iQSi05g-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dWIAZpZKa0cs_iQSi05g-56" target="dWIAZpZKa0cs_iQSi05g-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="1190" />
+              <mxPoint x="105" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dWIAZpZKa0cs_iQSi05g-56" value="zabbix sender" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dWIAZpZKa0cs_iQSi05g-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="dWIAZpZKa0cs_iQSi05g-63" target="dWIAZpZKa0cs_iQSi05g-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="1200" />
+              <mxPoint x="275" y="1200" />
+              <mxPoint x="275" y="1155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dWIAZpZKa0cs_iQSi05g-63" value="zabbix proxy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dWIAZpZKa0cs_iQSi05g-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dWIAZpZKa0cs_iQSi05g-64" target="dWIAZpZKa0cs_iQSi05g-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dWIAZpZKa0cs_iQSi05g-64" value="zabbix web" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1220" width="121" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dWIAZpZKa0cs_iQSi05g-70" value="&lt;div&gt;Zabbix Agents通过自定义的协议与Zabbix Server进行通信，将监控数据传输给Zabbix Server，并接收配置和命令。&lt;/div&gt;&lt;div&gt;Zabbix Server负责接收、存储、处理和分析监控数据，并进行警报和自动化操作。它还通过前端界面提供系统的管理和可视化。&lt;/div&gt;&lt;div&gt;数据库用于存储Zabbix系统的配置数据和监控数据，供Zabbix Server和前端界面访问和查询。&lt;/div&gt;&lt;div&gt;Proxy可选，用于分散Zabbix Server的负载和缓解网络传输的压力。&lt;/div&gt;&lt;div&gt;Agentless监控是一种可选的监控模式，通过网络协议或其他方法直接获取监控数据，无需安装Zabbix Agents&lt;/div&gt;&lt;div&gt;Zabbix Sender是Zabbix监控系统中的一个工具，用于向Zabbix Server发送监控数据。它允许用户通过命令行或编程方式将自定义的监控数据发送给Zabbix Server，以供后续处理和分析&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1370" width="800" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
