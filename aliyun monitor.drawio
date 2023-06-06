@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-06-06T01:34:45.367Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.2.1" etag="lpRAP00zLOH-F9mz_936" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-06T01:53:09.344Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="gR3q0Hp0tYcKb_5ziyF-" version="21.2.1" type="github">
   <diagram name="第 1 页" id="SrVqRkom7Quez6rHvEq0">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-2" value="&lt;h1&gt;aliyun 监控服务&lt;/h1&gt;&lt;p&gt;阿里云监控是阿里云提供的一项云服务，用于监控和管理阿里云上的云资源和应用程序。它提供了丰富的监控指标和工具，帮助用户实时了解其云资源的运行状况、性能指标和可用性情况&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;实时监控：阿里云监控提供实时的资源监控，可以监测云服务器（ECS）、负载均衡、对象存储（OSS）等各种阿里云服务的性能指标和状态。&lt;/li&gt;&lt;li&gt;自定义监控：用户可以根据自己的需求定义自定义监控指标，并通过API或SDK将监控数据上报到阿里云监控，实现对应用程序和业务的精细化监控。&lt;/li&gt;&lt;li&gt;告警和通知：阿里云监控支持设置告警规则，当监控数据达到设定的阈值时触发告警，通过短信、邮件、钉钉等方式通知用户，帮助用户及时发现和解决问题。&lt;/li&gt;&lt;li&gt;数据存储和分析：监控数据会持久化存储，并提供数据查询和分析功能。用户可以通过图表和报表查看历史监控数据，进行性能分析和趋势预测。&lt;/li&gt;&lt;li&gt;多维度监控：阿里云监控提供丰富的监控指标和维度，可以从多个维度进行监控和分析，包括地域、实例、网络、存储等，帮助用户全面了解资源和应用程序的运行情况。&lt;/li&gt;&lt;li&gt;集成和扩展：阿里云监控可以与其他阿里云服务集成，如云监控日志服务、云监控事件服务等，帮助用户实现更全面的监控和管理&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="70" width="960" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-4" value="阿里云监控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="310" width="120" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-5" target="ClJIuVaFxzLPGe9Ce5QV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-5" value="云监控服务：提供基础的云资源监控功能，包括云服务器（ECS）、负载均衡、RDS数据库、OSS对象存储等阿里云服务的监控指标和告警功能" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="380" y="310" width="700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-6" target="ClJIuVaFxzLPGe9Ce5QV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-6" value="自定义监控：允许用户定义自己的监控指标和告警规则，并通过API或SDK将监控数据上报到云监控服务，实现对自定义应用程序和业务的监控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="380" width="700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-7" target="ClJIuVaFxzLPGe9Ce5QV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-7" value="云监控应用市场：提供各种第三方的监控插件和解决方案，可用于监控不同类型的应用程序和服务" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="380" y="590" width="700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-8" target="ClJIuVaFxzLPGe9Ce5QV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-8" value="事件服务：用于捕捉云资源和服务的事件，并将事件数据推送到指定的目标。可以与云监控服务集成，通过事件触发告警和通知" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="380" y="520" width="700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-9" target="ClJIuVaFxzLPGe9Ce5QV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-9" value="日志服务：提供日志数据的采集、存储和查询功能。可以与云监控服务集成，将日志数据与监控数据进行关联，实现更全面的监控和分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="450" width="700" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
