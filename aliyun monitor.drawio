@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-06T01:53:09.344Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="gR3q0Hp0tYcKb_5ziyF-" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-06T02:09:22.386Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="AJvshi5sSyhIzyUx_kJW" version="21.2.1" type="github">
   <diagram name="第 1 页" id="SrVqRkom7Quez6rHvEq0">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -11,6 +11,15 @@
           <mxGeometry x="120" y="310" width="120" height="330" as="geometry" />
         </mxCell>
         <mxCell id="ClJIuVaFxzLPGe9Ce5QV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-5" target="ClJIuVaFxzLPGe9Ce5QV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-5" target="ClJIuVaFxzLPGe9Ce5QV-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-5" target="ClJIuVaFxzLPGe9Ce5QV-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-5" target="ClJIuVaFxzLPGe9Ce5QV-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ClJIuVaFxzLPGe9Ce5QV-5" value="云监控服务：提供基础的云资源监控功能，包括云服务器（ECS）、负载均衡、RDS数据库、OSS对象存储等阿里云服务的监控指标和告警功能" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
@@ -39,6 +48,15 @@
         </mxCell>
         <mxCell id="ClJIuVaFxzLPGe9Ce5QV-9" value="日志服务：提供日志数据的采集、存储和查询功能。可以与云监控服务集成，将日志数据与监控数据进行关联，实现更全面的监控和分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="450" width="700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-19" value="基础服务监控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-20" value="进程监控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="767" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-21" value="GPU监控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="840" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
