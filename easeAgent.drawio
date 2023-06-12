@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T01:45:24.001Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.3.8" etag="DA4vcRDuAeXWvd4Hq1jg" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T02:23:24.497Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="uit-Hlrt-P4ljfiVJwpc" version="21.3.8" type="github">
   <diagram name="第 1 页" id="n-G3lqDVLXR1q0Zq0EH0">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sJQpwPbI6ToiGN9EEG05-1" value="&lt;h1&gt;easeAgent&lt;/h1&gt;&lt;p&gt;EaseAgent 是为 Java 生态系统的应用程序提供非侵入式扩展的基础组件。&lt;br/&gt;EaseAgent 可以收集分布式应用程序的追踪、指标和日志，这些数据可用于 APM 系统，并提高分布式系统的可观测性。对于追踪，EaseAgent 遵循 Google Dapper 论文的方法。&lt;br/&gt;EaseAgent 也可以与云原生架构一起使用。例如，它可以帮助服务网格（特别是 EaseMesh）执行一些控制面板的工作。&lt;br/&gt;EaseAgent 支持插件机制开发，易于扩展或添加新功能&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="20" width="480" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="sJQpwPbI6ToiGN9EEG05-2" value="&lt;div&gt;下面是 EaseAgent 和 Zabbix 的异同点梳理：&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;相同点：&lt;/div&gt;&lt;div&gt;- 支持收集和展示监控数据，提供报警通知和图表展示等功能。&lt;/div&gt;&lt;div&gt;- 可以通过非侵入式的方式进行监控，减少对应用程序或系统的影响。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;异同点：&lt;/div&gt;&lt;div&gt;EaseAgent：&lt;/div&gt;&lt;div&gt;- 侧重于应用程序级别的监控，提供非侵入式的扩展来收集应用程序的指标、分布式跟踪和日志。&lt;/div&gt;&lt;div&gt;- 主要用于应用程序的性能监控和追踪，帮助提高分布式系统的可观察性。&lt;/div&gt;&lt;div&gt;- 支持插件机制的开发，可以扩展和添加新的功能。&lt;/div&gt;&lt;div&gt;- 不直接监控服务器级别的指标，而是关注应用程序层面的性能。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Zabbix：&lt;/div&gt;&lt;div&gt;- 一个全面的监控系统，可以监控服务器的各种指标，包括 CPU 使用率、内存使用率、网络流量等。&lt;/div&gt;&lt;div&gt;- 提供代理程序和主动监测等方式来收集服务器的信息。&lt;/div&gt;&lt;div&gt;- 具有强大的报警功能，可以根据定义的阈值进行报警通知。&lt;/div&gt;&lt;div&gt;- 提供灵活的图表展示和数据分析功能。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;总体来说，EaseAgent 更适用于应用程序级别的监控和追踪，而 Zabbix 更适合用于服务器级别的监控和管理。选择哪个工具取决于您的具体需求和监控的范围。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="620" height="350" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
