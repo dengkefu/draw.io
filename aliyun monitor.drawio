@@ -1,74 +1,113 @@
-<mxfile host="app.diagrams.net" modified="2023-06-06T02:43:06.441Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="wHLQ-v95e17jPF--PmgM" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T09:31:18.549Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="9aLWdD7mKen4srA_NhEz" version="21.3.8" type="github">
   <diagram name="第 1 页" id="SrVqRkom7Quez6rHvEq0">
-    <mxGraphModel dx="1195" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-2" value="&lt;h1&gt;aliyun 监控服务&lt;/h1&gt;&lt;p&gt;阿里云监控是阿里云提供的一项云服务，用于监控和管理阿里云上的云资源和应用程序。它提供了丰富的监控指标和工具，帮助用户实时了解其云资源的运行状况、性能指标和可用性情况&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;实时监控：阿里云监控提供实时的资源监控，可以监测云服务器（ECS）、负载均衡、对象存储（OSS）等各种阿里云服务的性能指标和状态。&lt;/li&gt;&lt;li&gt;自定义监控：用户可以根据自己的需求定义自定义监控指标，并通过API或SDK将监控数据上报到阿里云监控，实现对应用程序和业务的精细化监控。&lt;/li&gt;&lt;li&gt;告警和通知：阿里云监控支持设置告警规则，当监控数据达到设定的阈值时触发告警，通过短信、邮件、钉钉等方式通知用户，帮助用户及时发现和解决问题。&lt;/li&gt;&lt;li&gt;数据存储和分析：监控数据会持久化存储，并提供数据查询和分析功能。用户可以通过图表和报表查看历史监控数据，进行性能分析和趋势预测。&lt;/li&gt;&lt;li&gt;多维度监控：阿里云监控提供丰富的监控指标和维度，可以从多个维度进行监控和分析，包括地域、实例、网络、存储等，帮助用户全面了解资源和应用程序的运行情况。&lt;/li&gt;&lt;li&gt;集成和扩展：阿里云监控可以与其他阿里云服务集成，如云监控日志服务、云监控事件服务等，帮助用户实现更全面的监控和管理&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-2" value="&lt;h1&gt;aliyun 监控服务&lt;/h1&gt;&lt;p&gt;阿里云监控是阿里云提供的一项云服务，用于监控和管理阿里云上的云资源和应用程序。它提供了丰富的监控指标和工具，帮助用户实时了解其云资源的运行状况、性能指标和可用性情况&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;实时监控：阿里云监控提供实时的资源监控，可以监测云服务器（ECS）、负载均衡、对象存储（OSS）等各种阿里云服务的性能指标和状态。&lt;/li&gt;&lt;li&gt;自定义监控：用户可以根据自己的需求定义自定义监控指标，并通过API或SDK将监控数据上报到阿里云监控，实现对应用程序和业务的精细化监控。&lt;/li&gt;&lt;li&gt;告警和通知：阿里云监控支持设置告警规则，当监控数据达到设定的阈值时触发告警，通过短信、邮件、钉钉等方式通知用户，帮助用户及时发现和解决问题。&lt;/li&gt;&lt;li&gt;数据存储和分析：监控数据会持久化存储，并提供数据查询和分析功能。用户可以通过图表和报表查看历史监控数据，进行性能分析和趋势预测。&lt;/li&gt;&lt;li&gt;多维度监控：阿里云监控提供丰富的监控指标和维度，可以从多个维度进行监控和分析，包括地域、实例、网络、存储等，帮助用户全面了解资源和应用程序的运行情况。&lt;/li&gt;&lt;li&gt;集成和扩展：阿里云监控可以与其他阿里云服务集成，如云监控日志服务、云监控事件服务等，帮助用户实现更全面的监控和管理&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="120" y="70" width="960" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-4" value="阿里云监控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-4" value="阿里云监控" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="310" width="120" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-5" target="ClJIuVaFxzLPGe9Ce5QV-4">
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-5" target="ClJIuVaFxzLPGe9Ce5QV-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-5" value="云监控服务：提供基础的云资源监控功能，包括云服务器（ECS）、负载均衡、RDS数据库、OSS对象存储等阿里云服务的监控指标和告警功能" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-5" value="云监控服务：提供基础的云资源监控功能，包括云服务器（ECS）、负载均衡、RDS数据库、OSS对象存储等阿里云服务的监控指标和告警功能" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="380" y="310" width="700" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-6" target="ClJIuVaFxzLPGe9Ce5QV-4">
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-6" target="ClJIuVaFxzLPGe9Ce5QV-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-6" value="自定义监控：允许用户定义自己的监控指标和告警规则，并通过API或SDK将监控数据上报到云监控服务，实现对自定义应用程序和业务的监控" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-6" value="自定义监控：允许用户定义自己的监控指标和告警规则，并通过API或SDK将监控数据上报到云监控服务，实现对自定义应用程序和业务的监控" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="380" width="700" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-7" target="ClJIuVaFxzLPGe9Ce5QV-4">
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-7" target="ClJIuVaFxzLPGe9Ce5QV-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-7" value="云监控应用市场：提供各种第三方的监控插件和解决方案，可用于监控不同类型的应用程序和服务" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-7" value="云监控应用市场：提供各种第三方的监控插件和解决方案，可用于监控不同类型的应用程序和服务" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="380" y="590" width="700" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-8" target="ClJIuVaFxzLPGe9Ce5QV-4">
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-8" target="ClJIuVaFxzLPGe9Ce5QV-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-8" value="事件服务：用于捕捉云资源和服务的事件，并将事件数据推送到指定的目标。可以与云监控服务集成，通过事件触发告警和通知" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-8" value="事件服务：用于捕捉云资源和服务的事件，并将事件数据推送到指定的目标。可以与云监控服务集成，通过事件触发告警和通知" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="380" y="520" width="700" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-9" target="ClJIuVaFxzLPGe9Ce5QV-4">
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-9" target="ClJIuVaFxzLPGe9Ce5QV-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-9" value="日志服务：提供日志数据的采集、存储和查询功能。可以与云监控服务集成，将日志数据与监控数据进行关联，实现更全面的监控和分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-9" value="日志服务：提供日志数据的采集、存储和查询功能。可以与云监控服务集成，将日志数据与监控数据进行关联，实现更全面的监控和分析" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="450" width="700" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-32" value="监控插件实现逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-32" value="监控插件实现逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="120" y="710" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-33" target="ClJIuVaFxzLPGe9Ce5QV-34">
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-33" target="ClJIuVaFxzLPGe9Ce5QV-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-33" value="插件开发与部署：通常是在需要监控的资源上部署插件代理程序或Agent。例如，在云服务器（ECS）上安装云监控插件（CloudMonitor Agent）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-33" value="插件开发与部署：通常是在需要监控的资源上部署插件代理程序或Agent。例如，在云服务器（ECS）上安装云监控插件（CloudMonitor Agent）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="121" y="750" width="960" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-34" target="ClJIuVaFxzLPGe9Ce5QV-35">
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-34" target="ClJIuVaFxzLPGe9Ce5QV-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-34" value="数据采集：插件代理程序在资源上运行，定期采集资源的性能指标和状态信息。它可能通过系统API、命令行工具、文件读取等方式获取资源的相关数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-34" value="数据采集：插件代理程序在资源上运行，定期采集资源的性能指标和状态信息。它可能通过系统API、命令行工具、文件读取等方式获取资源的相关数据" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="121" y="860" width="960" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-35" target="ClJIuVaFxzLPGe9Ce5QV-36">
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ClJIuVaFxzLPGe9Ce5QV-35" target="ClJIuVaFxzLPGe9Ce5QV-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-35" value="数据上报：插件代理程序将采集到的监控数据打包，并通过网络协议（如HTTP、HTTPS）将数据上报到阿里云监控服务。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-35" value="数据上报：插件代理程序将采集到的监控数据打包，并通过网络协议（如HTTP、HTTPS）将数据上报到阿里云监控服务。" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="121" y="970" width="960" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-36" value="插件开发与部署：阿里云监控服务接收到上报的数据后，进行数据的解析、处理和存储。它可能会将数据存储到数据库、分析引擎或存储系统中，以便后续的数据查询和分析。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-36" value="插件开发与部署：阿里云监控服务接收到上报的数据后，进行数据的解析、处理和存储。它可能会将数据存储到数据库、分析引擎或存储系统中，以便后续的数据查询和分析。" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="121" y="1080" width="960" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-41" value="如何实现一个监控插件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-41" value="如何实现一个监控插件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="120" y="1190" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-43" value="&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;确定监控指标和数据源：&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;确定要监控的指标，例如CPU使用率、内存占用等。&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;确定数据源，可以是命令行工具、API调用、文件读取等。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;编写脚本或程序：&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;选择适合的编程语言，例如Python、Shell脚本等。&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;根据监控指标和数据源，编写脚本或程序逻辑，用于采集监控数据。&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;数据采集可以使用系统命令（如top、free）或API调用（如通过SDK调用系统接口）等方式。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;数据格式化和打包：&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;将采集到的监控数据进行格式化，如将数据转换为JSON格式。&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;将格式化后的数据打包，可以使用字典、列表等数据结构进行封装。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;数据上报到阿里云监控服务：&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;使用阿里云监控提供的API或SDK，将打包好的监控数据上报到云监控服务。&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;需要进行身份认证，获取合法的访问密钥（Access Key），并在请求中包含相应的认证信息。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;设置监控规则和告警：&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;在阿里云监控服务中设置监控规则，如阈值、触发条件等。&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;配置告警方式，如短信、邮件、钉钉等通知方式。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;测试和部署：&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;运行插件脚本或程序，验证数据采集和上报功能是否正常。&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;部署插件到需要监控的资源上，并确保插件可以定期执行。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="ClJIuVaFxzLPGe9Ce5QV-43" value="&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;确定监控指标和数据源：&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;确定要监控的指标，例如CPU使用率、内存占用等。&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;确定数据源，可以是命令行工具、API调用、文件读取等。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;编写脚本或程序：&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;选择适合的编程语言，例如Python、Shell脚本等。&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;根据监控指标和数据源，编写脚本或程序逻辑，用于采集监控数据。&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;数据采集可以使用系统命令（如top、free）或API调用（如通过SDK调用系统接口）等方式。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;数据格式化和打包：&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;将采集到的监控数据进行格式化，如将数据转换为JSON格式。&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;将格式化后的数据打包，可以使用字典、列表等数据结构进行封装。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;数据上报到阿里云监控服务：&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;使用阿里云监控提供的API或SDK，将打包好的监控数据上报到云监控服务。&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;需要进行身份认证，获取合法的访问密钥（Access Key），并在请求中包含相应的认证信息。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;设置监控规则和告警：&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;在阿里云监控服务中设置监控规则，如阈值、触发条件等。&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;配置告警方式，如短信、邮件、钉钉等通知方式。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;测试和部署：&lt;/span&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;运行插件脚本或程序，验证数据采集和上报功能是否正常。&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;部署插件到需要监控的资源上，并确保插件可以定期执行。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="121" y="1220" width="960" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="-sGsfNm8v3Kvli_I_1yl-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-sGsfNm8v3Kvli_I_1yl-7" target="-sGsfNm8v3Kvli_I_1yl-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sGsfNm8v3Kvli_I_1yl-7" value="配置监控目标" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1790" width="139" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-sGsfNm8v3Kvli_I_1yl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-sGsfNm8v3Kvli_I_1yl-8" target="-sGsfNm8v3Kvli_I_1yl-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sGsfNm8v3Kvli_I_1yl-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-sGsfNm8v3Kvli_I_1yl-8" target="-sGsfNm8v3Kvli_I_1yl-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sGsfNm8v3Kvli_I_1yl-8" value="定义数据采集逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="319" y="1790" width="139" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-sGsfNm8v3Kvli_I_1yl-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-sGsfNm8v3Kvli_I_1yl-9" target="-sGsfNm8v3Kvli_I_1yl-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sGsfNm8v3Kvli_I_1yl-9" value="数据存储" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1920" width="139" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-sGsfNm8v3Kvli_I_1yl-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-sGsfNm8v3Kvli_I_1yl-10" target="-sGsfNm8v3Kvli_I_1yl-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sGsfNm8v3Kvli_I_1yl-10" value="数据分析与整合" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1790" width="139" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-sGsfNm8v3Kvli_I_1yl-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-sGsfNm8v3Kvli_I_1yl-11" target="-sGsfNm8v3Kvli_I_1yl-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sGsfNm8v3Kvli_I_1yl-11" value="告警通知" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1790" width="139" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-sGsfNm8v3Kvli_I_1yl-12" value="数据报表与展示" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1920" width="139" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-sGsfNm8v3Kvli_I_1yl-21" value="监控流程示意图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1730" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
