@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-17T06:45:53.093Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="YK9hTgvkZc4ubRrDkBLD" version="22.1.2" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2023-11-17T06:54:16.326Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="aipYSS1Pu6AO-rvJdcQq" version="22.1.2" type="github" pages="19">
   <diagram id="dbasA5ZUTl1JyYz0b7-W" name="第 1 页">
     <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1669,7 +1669,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mVsUjuXlZ9spQ2KUYzB1" name="类图">
-    <mxGraphModel dx="8497" dy="3743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6312" dy="2600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1731,7 +1731,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5iDgJD4RmQPNoqOqRxHq-18" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;TfStackOutputController&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+&amp;nbsp;tfStackOutputService&lt;span style=&quot;background-color: initial;&quot;&gt;：&amp;nbsp;&lt;/span&gt;ITfStackOutputService&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+&amp;nbsp;tfPlanService&lt;span style=&quot;background-color: initial;&quot;&gt;:&amp;nbsp;&lt;/span&gt;ITfPlanService&lt;/p&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;+&amp;nbsp;queryPageList(TfStackOutput)&lt;span style=&quot;background-color: initial;&quot;&gt;:&amp;nbsp;&lt;/span&gt;Result&amp;lt;IPage&amp;lt;TfStackOutput&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;+&amp;nbsp;add: (TfStackOutput&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;+&amp;nbsp;edit: (TfStackOutput)&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;+&amp;nbsp;delete: (String)&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;+&amp;nbsp;queryById(String)&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-3434.5" y="380" width="356" height="293.75" as="geometry" />
+          <mxGeometry x="-3434.5" y="380" width="356" height="300" as="geometry" />
         </mxCell>
         <mxCell id="-r6rCTii8LZo5AzGpOhT-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;TfTemplateController&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ tfTemplateService: ITfTemplateService&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ tfPlanService: ITfPlanService&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ tfStackService: ITfStackService&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ tfTemplateAttachService: ITfTemplateAttachService&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ tfTemplateAttachParameterService: ITfTemplateAttachParameterService&lt;/p&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ queryPageList(TfTemplate): Result&amp;lt;IPage&amp;lt;TfTemplate&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ add: (TfTemplate)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ copy: (TfTemplate)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ edit: (TfTemplate)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ editAttach: (TfTemplate)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ delete: (String)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ deleteAttachById: (String)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ deleteBatch: (String)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ queryById(String): Result&amp;lt;?&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ parse: (MultipartFile, Integer): Result&amp;lt;?&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ queryAttachById(String): Result&amp;lt;?&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ download: (String, Integer, HttpServletResponse)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ queryParametersByAttachId(String): Result&amp;lt;?&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ queryVersionById(String): Result&amp;lt;?&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ updateAttachByAttachId(TfTemplateAttach): Result&amp;lt;?&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ queryStackById(String): Result&amp;lt;?&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ check: (String, String): Result&amp;lt;Validate&amp;gt;&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="-3890.5" y="-1294.5" width="426" height="379" as="geometry" />
@@ -1743,68 +1743,14 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-r6rCTii8LZo5AzGpOhT-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ITfStackEventService&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-2079" y="715" width="216" height="51" as="geometry" />
-        </mxCell>
-        <mxCell id="-r6rCTii8LZo5AzGpOhT-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;TfStackEventServiceImpl&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-2080" y="861" width="216" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="-r6rCTii8LZo5AzGpOhT-13" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=15;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="-r6rCTii8LZo5AzGpOhT-12" target="-r6rCTii8LZo5AzGpOhT-11" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-1748" y="1072" as="sourcePoint" />
-            <mxPoint x="-1588" y="1072" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="-r6rCTii8LZo5AzGpOhT-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ITfStackEventController&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ tfStackEventService: ITfStackEventService&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ queryPageList(TfStackEvent): Result&amp;lt;IPage&amp;lt;TfStackEvent&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ add: (TfStackEvent)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ edit: (TfStackEvent)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ delete: (String)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ deleteBatch: (String)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ queryById(String): Result&amp;lt;?&amp;gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-2184" y="490" width="426" height="177" as="geometry" />
-        </mxCell>
-        <mxCell id="-r6rCTii8LZo5AzGpOhT-15" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="-r6rCTii8LZo5AzGpOhT-14" target="-r6rCTii8LZo5AzGpOhT-11" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-1485" y="895.9952845528455" as="sourcePoint" />
-            <mxPoint x="-1852" y="1071.29" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-r6rCTii8LZo5AzGpOhT-16" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ITfStackResourceService&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1587" y="715" width="216" height="51" as="geometry" />
-        </mxCell>
-        <mxCell id="-r6rCTii8LZo5AzGpOhT-17" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;TfStackResourceServiceImpl&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1588" y="861" width="216" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="-r6rCTii8LZo5AzGpOhT-18" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=15;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="-r6rCTii8LZo5AzGpOhT-17" target="-r6rCTii8LZo5AzGpOhT-16" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-1256" y="1072" as="sourcePoint" />
-            <mxPoint x="-1096" y="1072" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="-2930" y="380" width="426" height="300" as="geometry" />
         </mxCell>
         <mxCell id="-r6rCTii8LZo5AzGpOhT-19" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ITfStackResourceController&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;+ tfStackResourceService: ITfStackResourceService&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ queryPageList(TfStackResource): Result&amp;lt;IPage&amp;lt;TfStackResource&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ add: (TfStackResource)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ edit: (TfStackResource)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ delete: (String)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ deleteBatch: (String)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ queryById(String): Result&amp;lt;?&amp;gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1693" y="490" width="426" height="177" as="geometry" />
-        </mxCell>
-        <mxCell id="-r6rCTii8LZo5AzGpOhT-20" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="-r6rCTii8LZo5AzGpOhT-19" target="-r6rCTii8LZo5AzGpOhT-16" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-993" y="895.9952845528455" as="sourcePoint" />
-            <mxPoint x="-1360" y="1071.29" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-r6rCTii8LZo5AzGpOhT-21" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ITfTemplateAttachParameterService&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ITfPlanService&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1108" y="715" width="216" height="63" as="geometry" />
-        </mxCell>
-        <mxCell id="-r6rCTii8LZo5AzGpOhT-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;TfTemplateAttachParameterServiceImpl&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;TfPlanServiceImpl&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1109" y="861" width="216" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="-r6rCTii8LZo5AzGpOhT-23" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=15;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="-r6rCTii8LZo5AzGpOhT-22" target="-r6rCTii8LZo5AzGpOhT-21" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-777" y="1072" as="sourcePoint" />
-            <mxPoint x="-617" y="1072" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="-2330" y="380" width="426" height="300" as="geometry" />
         </mxCell>
         <mxCell id="-r6rCTii8LZo5AzGpOhT-24" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ITfStackParameterController&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;div&gt;+ tfTemplateAttachParameterService: ITfTemplateAttachParameterService&lt;/div&gt;&lt;div&gt;+ tfPlanService: ITfPlanService&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ queryParametersByStackId(String): Result&amp;lt;?&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1214" y="490" width="426" height="177" as="geometry" />
-        </mxCell>
-        <mxCell id="-r6rCTii8LZo5AzGpOhT-25" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="-r6rCTii8LZo5AzGpOhT-24" target="-r6rCTii8LZo5AzGpOhT-21" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-514" y="895.9952845528455" as="sourcePoint" />
-            <mxPoint x="-881" y="1071.29" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="-1770" y="380" width="426" height="300" as="geometry" />
         </mxCell>
         <mxCell id="-r6rCTii8LZo5AzGpOhT-29" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ITfStackParameterController&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;div&gt;&lt;div&gt;+ tfStackService: ITfStackService&lt;/div&gt;&lt;div&gt;+ tfPlanService: ITfPlanService&lt;/div&gt;&lt;div&gt;+ tfTemplateAttachService: ITfTemplateAttachService&lt;/div&gt;&lt;div&gt;+ tfTemplateService: ITfTemplateService&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ queryPageList(TfStack): Result&amp;lt;IPage&amp;lt;TfStack&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ add: (TfStack)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ saveWithPlan: (TfStack): Result&amp;lt;?&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ saveAndDeploy: (TfStack): Result&amp;lt;?&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ edit: (TfStack): Result&amp;lt;?&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ updateWithPlan: (TfStack): Result&amp;lt;?&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ updateAndDeploy: (TfStack): Result&amp;lt;?&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ delete: (String): Result&amp;lt;Integer&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ deleteBatch: (String): Result&amp;lt;String&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ queryById(String): Result&amp;lt;?&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ continueDeploy(String): Result&amp;lt;?&amp;gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1600" y="-1299" width="430" height="383.5" as="geometry" />
@@ -2391,6 +2337,138 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hV450KNLT8j6ujUafr-j-230" value="use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hV450KNLT8j6ujUafr-j-229">
+          <mxGeometry x="-0.0421" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-231" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="hV450KNLT8j6ujUafr-j-233" source="-r6rCTii8LZo5AzGpOhT-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-2636" y="679.25" as="sourcePoint" />
+            <mxPoint x="-2753.5" y="839.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-232" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;InterfaceImpl&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;TfEventServiceImpl&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ add(enetity): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ delete(id): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ update(enetity): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getById(id): void&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2833.5" y="1161.5" width="233" height="271" as="geometry" />
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-233" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ITfEventService&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ add(Output): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ delete(id): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ update(Output): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getById(id): void&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2833.5" y="834.5" width="233" height="271" as="geometry" />
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-234" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2717.5" y="1161" as="sourcePoint" />
+            <mxPoint x="-2717.5" y="1105.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-235" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Mapper&lt;/i&gt;&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;TfEventMapper&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ create(enetity): void&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ delete(id): void&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ update(enetity): void&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ select(id): void&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2833.5" y="1487" width="233" height="271" as="geometry" />
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2717.3999999999996" y="1432.5" as="sourcePoint" />
+            <mxPoint x="-2717.3999999999996" y="1487.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-237" value="use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hV450KNLT8j6ujUafr-j-236">
+          <mxGeometry x="-0.0421" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-238" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="hV450KNLT8j6ujUafr-j-240">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-2117" y="678.5" as="sourcePoint" />
+            <mxPoint x="-2153.5" y="838" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-239" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;InterfaceImpl&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;TfStackResourceServiceImpl&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ add(enetity): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ delete(id): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ update(enetity): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getById(id): void&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2233.5" y="1160" width="233" height="271" as="geometry" />
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-240" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ITfStackResourceService&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ add(Output): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ delete(id): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ update(Output): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getById(id): void&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2233.5" y="833" width="233" height="271" as="geometry" />
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-241" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2117.5" y="1159.5" as="sourcePoint" />
+            <mxPoint x="-2117.5" y="1104" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-242" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Mapper&lt;/i&gt;&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;TfStackResourceMapper&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ create(enetity): void&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ delete(id): void&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ update(enetity): void&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ select(id): void&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2233.5" y="1485.5" width="233" height="271" as="geometry" />
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-243" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2117.3999999999996" y="1431" as="sourcePoint" />
+            <mxPoint x="-2117.3999999999996" y="1486" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-244" value="use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hV450KNLT8j6ujUafr-j-243">
+          <mxGeometry x="-0.0421" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-249" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="hV450KNLT8j6ujUafr-j-260" source="-r6rCTii8LZo5AzGpOhT-24">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1441.5" y="680" as="sourcePoint" />
+            <mxPoint x="-954.5" y="843.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-251" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="hV450KNLT8j6ujUafr-j-259" source="-r6rCTii8LZo5AzGpOhT-24">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1441.5" y="680" as="sourcePoint" />
+            <mxPoint x="-1683.5" y="853.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-257" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;InterfaceImpl&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;TfPlanServiceImpl&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ add(enetity): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ delete(id): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ update(enetity): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getById(id): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDetailById(String): TfPlanVo&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createPlan(CreatePlanRequest): TfPlan&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ parseTfTemplate(TfPlan): Map&amp;lt;String, String&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getPlanMaxVersionByStackId(String): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ executePlan(String): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getParameters(String): List&amp;lt;TfTemplateAttachParameter&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getLatestOne(String): TfPlan&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getLatestDeploySuccessOne(String): TfPlan&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1800" y="1174" width="233" height="271" as="geometry" />
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-258" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;enetity&lt;br&gt;&lt;i&gt;&amp;lt;&amp;lt;InterfaceImpl&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;TfTemplateAttachParameterServiceImpl&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ add(enetity): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ delete(id): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ update(enetity): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getById(id): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1535.5" y="1174" width="233" height="271" as="geometry" />
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-259" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ITfPlanService&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ add(Output): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ delete(id): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ update(Output): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getById(id): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDetailById(String): TfPlanVo&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createPlan(CreatePlanRequest): TfPlan&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ parseTfTemplate(TfPlan): Map&amp;lt;String, String&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getPlanMaxVersionByStackId(String): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ executePlan(String): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getParameters(String): List&amp;lt;TfTemplateAttachParameter&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getLatestOne(String): TfPlan&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getLatestDeploySuccessOne(String): TfPlan&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1800" y="847" width="233" height="271" as="geometry" />
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-260" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ITfTemplateAttachParameterService&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ add(Output): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ delete(id): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ update(Output): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getById(id): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1535.5" y="847" width="233" height="271" as="geometry" />
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-265" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1684" y="1173.5" as="sourcePoint" />
+            <mxPoint x="-1684" y="1118" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-270" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Mapper&lt;/i&gt;&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;TfPlanMapper&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ create(enetity): void&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ delete(id): void&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ update(enetity): void&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ select(id): void&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1800" y="1499.5" width="233" height="271" as="geometry" />
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-271" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;InterfaceImpl&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;TfTemplateAttachParameterMapper&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ create(enetity): void&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ delete(id): void&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ update(enetity): void&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ select(id): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1535.5" y="1499.5" width="233" height="271" as="geometry" />
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-272" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1683.88" y="1445" as="sourcePoint" />
+            <mxPoint x="-1683.88" y="1499" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-273" value="use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hV450KNLT8j6ujUafr-j-272">
+          <mxGeometry x="-0.0421" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-280" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1419.67" y="1174" as="sourcePoint" />
+            <mxPoint x="-1419.67" y="1118.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-281" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1419.6699999999996" y="1444.5" as="sourcePoint" />
+            <mxPoint x="-1419.6699999999996" y="1499.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hV450KNLT8j6ujUafr-j-282" value="use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hV450KNLT8j6ujUafr-j-281">
           <mxGeometry x="-0.0421" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
