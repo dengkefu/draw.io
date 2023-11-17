@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-17T03:03:43.068Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="AbAlYZwQay1-TO1NlpXL" version="22.1.2" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2023-11-17T03:04:14.080Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="so9HrjbP6F91ddXqhQBg" version="22.1.2" type="github" pages="19">
   <diagram id="dbasA5ZUTl1JyYz0b7-W" name="第 1 页">
     <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1669,7 +1669,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mVsUjuXlZ9spQ2KUYzB1" name="类图">
-    <mxGraphModel dx="2419" dy="2829" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5185" dy="4275" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1813,8 +1813,10 @@
             <mxPoint x="1176" y="-413" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-r6rCTii8LZo5AzGpOhT-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-r6rCTii8LZo5AzGpOhT-19" target="-r6rCTii8LZo5AzGpOhT-39">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="-r6rCTii8LZo5AzGpOhT-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="-r6rCTii8LZo5AzGpOhT-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="792.5" y="-1135" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="-r6rCTii8LZo5AzGpOhT-19" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ITfStackResourceController&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;+ tfStackResourceService: ITfStackResourceService&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ queryPageList(TfStackResource): Result&amp;lt;IPage&amp;lt;TfStackResource&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ add: (TfStackResource)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ edit: (TfStackResource)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ delete: (String)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ deleteBatch: (String)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ queryById(String): Result&amp;lt;?&amp;gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="579" y="-995" width="426" height="177" as="geometry" />
