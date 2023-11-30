@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-30T09:02:29.099Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="YoU5sCgL9q2_5bkEStV-" version="22.1.5" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2023-11-30T09:17:56.601Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="N0QR8nAqT5gncT2Mtylf" version="22.1.5" type="github" pages="20">
   <diagram id="hFyA3Iom44Uxpf7mVGKp" name="网络">
     <mxGraphModel dx="1434" dy="750" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1096,7 +1096,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mVsUjuXlZ9spQ2KUYzB1" name="编排类图">
-    <mxGraphModel dx="6709" dy="3989" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6709" dy="5589" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1814,6 +1814,92 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-2313.5" y="-1770.5" as="sourcePoint" />
             <mxPoint x="-2153.5" y="-1770.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PCs1Qmjz1jptw0OHMZTX-47" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;SysUserController&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ sysUserService: ISysUserService&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ userRoleService: ISysUserRoleService&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ sysRoleService: ISysRoleService&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ queryPageList(SysUser, Integer, Integer, HttpServletRequest): Result&amp;lt;IPage&amp;lt;SysUser&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ checkAdmin(LoginUser): boolean&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ add(JSONObject): Result&amp;lt;SysUser&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ edit(JSONObject): Result&amp;lt;SysUser&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ delete(String): Result&amp;lt;?&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ deleteBatch(String): Result&amp;lt;?&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ frozenBatch(JSONObject): Result&amp;lt;SysUser&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ queryById(String): Result&amp;lt;SysUser&amp;gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4463.5" y="-4632" width="426" height="312" as="geometry" />
+        </mxCell>
+        <mxCell id="PCs1Qmjz1jptw0OHMZTX-48" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PCs1Qmjz1jptw0OHMZTX-47" target="PCs1Qmjz1jptw0OHMZTX-54">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-3575" y="-4575.504715447154" as="sourcePoint" />
+            <mxPoint x="-4614" y="-4199" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PCs1Qmjz1jptw0OHMZTX-49" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ISysUserService&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ resetPassword(String, String, String, String): Result&amp;lt;?&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ changePassword(SysUser): Result&amp;lt;?&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ deleteUser(String): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ deleteBatchUsers(String): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getUserByName(String): SysUser&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ addUserWithRole(SysUser, String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ editUserWithRole(SysUser, String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getRole(String): List&amp;lt;String&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getCacheUser(String): SysUserCacheInfo&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getUserByDepId(Page&amp;lt;SysUser&amp;gt;, String, String): IPage&amp;lt;SysUser&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getUserByDepIds(Page&amp;lt;SysUser&amp;gt;, List&amp;lt;String&amp;gt;, String): IPage&amp;lt;SysUser&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDepNamesByUserIds(List&amp;lt;String&amp;gt;): Map&amp;lt;String, String&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getUserRolesSet(String): Set&amp;lt;String&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getUserPermissionsSet(String): Set&amp;lt;String&amp;gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4887" y="-4202" width="419" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="PCs1Qmjz1jptw0OHMZTX-50" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PCs1Qmjz1jptw0OHMZTX-47" target="PCs1Qmjz1jptw0OHMZTX-49">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-4525" y="-4354.5" as="sourcePoint" />
+            <mxPoint x="-4525" y="-4193.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PCs1Qmjz1jptw0OHMZTX-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PCs1Qmjz1jptw0OHMZTX-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4684" y="-3911" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PCs1Qmjz1jptw0OHMZTX-52" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;SysUserServiceImpl&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4810" y="-3850" width="254" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="PCs1Qmjz1jptw0OHMZTX-53" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; SysUserRole&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;ServiceImpl&lt;/span&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4367" y="-3850" width="233" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="PCs1Qmjz1jptw0OHMZTX-54" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ISysUserRoleService&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ queryUserRoleMapByUserIds(List&amp;lt;String&amp;gt;): Map&amp;lt;String, String&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ queryUserRolesByUserId(String): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ queryRoleMapByUserId(String): Map&amp;lt;String, String&amp;gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4425" y="-4202" width="349" height="291" as="geometry" />
+        </mxCell>
+        <mxCell id="PCs1Qmjz1jptw0OHMZTX-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PCs1Qmjz1jptw0OHMZTX-53" target="PCs1Qmjz1jptw0OHMZTX-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4299.5" y="-3843.5" as="sourcePoint" />
+            <mxPoint x="-4311" y="-3881.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PCs1Qmjz1jptw0OHMZTX-56" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Interface&lt;/i&gt;&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;SysUserMapper&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getUserByName(String): SysUser&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getUserByDepId(Page, String, String): IPage&amp;lt;SysUser&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getDepNamesByUserIds(List&amp;lt;String&amp;gt;): List&amp;lt;SysUserDepVo&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getUserByDepIds(Page, List&amp;lt;String&amp;gt;, String): IPage&amp;lt;SysUser&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getUserByRoleId(Page, String, String): IPage&amp;lt;SysUser&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ updateUserDepart(String, String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getUserByPhone(String): SysUser&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getUserByEmail(String): SysUser&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4810" y="-3719" width="255" height="173" as="geometry" />
+        </mxCell>
+        <mxCell id="PCs1Qmjz1jptw0OHMZTX-57" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Interface&lt;/i&gt;&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;SysUserRole&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;Mapper&lt;/span&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getRoleByUserName(String): List&amp;lt;String&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getRoleIdByUserName(String): List&amp;lt;String&amp;gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4367" y="-3720" width="233" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="PCs1Qmjz1jptw0OHMZTX-58" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PCs1Qmjz1jptw0OHMZTX-52" target="PCs1Qmjz1jptw0OHMZTX-56">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-4948" y="-3528" as="sourcePoint" />
+            <mxPoint x="-4788" y="-3528" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PCs1Qmjz1jptw0OHMZTX-59" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PCs1Qmjz1jptw0OHMZTX-53" target="PCs1Qmjz1jptw0OHMZTX-57">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-4290.5" y="-3431" as="sourcePoint" />
+            <mxPoint x="-4130.5" y="-3431" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PCs1Qmjz1jptw0OHMZTX-60" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;SysRole&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;ServiceImpl&lt;/span&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3971.5" y="-3845" width="233" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="PCs1Qmjz1jptw0OHMZTX-61" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ISysRoleService&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ deleteRole(String): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ deleteBatchRole(String[]): boolean&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4032" y="-4202" width="354" height="291" as="geometry" />
+        </mxCell>
+        <mxCell id="PCs1Qmjz1jptw0OHMZTX-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PCs1Qmjz1jptw0OHMZTX-60" target="PCs1Qmjz1jptw0OHMZTX-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3906.5" y="-3843.5" as="sourcePoint" />
+            <mxPoint x="-3918" y="-3881.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PCs1Qmjz1jptw0OHMZTX-63" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Interface&lt;/i&gt;&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; SysRole&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;Mapper&lt;/span&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ deleteRoleUserRelation(String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ deleteRolePermissionRelation(String)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getRolePage(Page, int, String, SysRole): List&amp;lt;SysRole&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ getAllRoleByUser(String): List&amp;lt;SysRole&amp;gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3971.5" y="-3715" width="233" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="PCs1Qmjz1jptw0OHMZTX-64" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PCs1Qmjz1jptw0OHMZTX-60" target="PCs1Qmjz1jptw0OHMZTX-63">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-3895" y="-3426" as="sourcePoint" />
+            <mxPoint x="-3735" y="-3426" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PCs1Qmjz1jptw0OHMZTX-71" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PCs1Qmjz1jptw0OHMZTX-47" target="PCs1Qmjz1jptw0OHMZTX-61">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-4203" y="-4334" as="sourcePoint" />
+            <mxPoint x="-4298" y="-4192" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
