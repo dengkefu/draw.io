@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T08:23:54.890Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="IC0QuJyfAlnC4S1vGPT5" version="22.1.5" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2023-12-01T08:24:33.731Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="qk8IvLwr_qBBX2ZyqXc6" version="22.1.5" type="github" pages="20">
   <diagram id="hFyA3Iom44Uxpf7mVGKp" name="网络">
     <mxGraphModel dx="1434" dy="750" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1096,7 +1096,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mVsUjuXlZ9spQ2KUYzB1" name="编排类图">
-    <mxGraphModel dx="6887" dy="9682" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8785" dy="10675" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2358,128 +2358,128 @@
           <mxGeometry x="-1976" y="-7191" width="233" height="181" as="geometry" />
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-46" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;MonStackController&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ monStackService: IMonStackService&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ resources(String): Result&amp;lt;StackMonResourceVo&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3510" y="-8759" width="426" height="177" as="geometry" />
+          <mxGeometry x="-4444" y="-8774" width="426" height="177" as="geometry" />
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-47" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;MonStackService&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;Impl&lt;/span&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3413.5" y="-8236" width="233" height="88" as="geometry" />
+          <mxGeometry x="-4347.5" y="-8251" width="233" height="88" as="geometry" />
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-48" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;IMonItemService&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ resources(String): Result&amp;lt;StackMonResourceVo&amp;gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3474" y="-8546" width="354" height="291" as="geometry" />
+          <mxGeometry x="-4408" y="-8561" width="354" height="291" as="geometry" />
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZlfX8P_zkPWYNGay26BR-47" target="ZlfX8P_zkPWYNGay26BR-48">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-3348.5" y="-8187.5" as="sourcePoint" />
-            <mxPoint x="-3360" y="-8225.5" as="targetPoint" />
+            <mxPoint x="-4282.5" y="-8202.5" as="sourcePoint" />
+            <mxPoint x="-4294" y="-8240.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-50" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZlfX8P_zkPWYNGay26BR-47" target="ZlfX8P_zkPWYNGay26BR-52">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-3337" y="-7770" as="sourcePoint" />
-            <mxPoint x="-3297" y="-8059" as="targetPoint" />
+            <mxPoint x="-4271" y="-7785" as="sourcePoint" />
+            <mxPoint x="-4231" y="-8074" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-51" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZlfX8P_zkPWYNGay26BR-46" target="ZlfX8P_zkPWYNGay26BR-48">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-3446" y="-8462" as="sourcePoint" />
-            <mxPoint x="-3541" y="-8320" as="targetPoint" />
+            <mxPoint x="-4380" y="-8477" as="sourcePoint" />
+            <mxPoint x="-4475" y="-8335" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-52" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Interface&lt;/i&gt;&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;MonStackMapper&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ resources(String): Result&amp;lt;StackMonResourceVo&amp;gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3413.5" y="-8117" width="233" height="181" as="geometry" />
+          <mxGeometry x="-4347.5" y="-8132" width="233" height="181" as="geometry" />
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-53" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;MonStackDataController&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ monStackDataService: IMonStackDataService&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ dataFlow(String): Result&amp;lt;Map&amp;lt;String, String&amp;gt;&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3013.5" y="-8759" width="426" height="177" as="geometry" />
+          <mxGeometry x="-3947.5" y="-8774" width="426" height="177" as="geometry" />
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-54" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;MonStackDataServiceImpl&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2917" y="-8236" width="233" height="88" as="geometry" />
+          <mxGeometry x="-3851" y="-8251" width="233" height="88" as="geometry" />
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-55" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;IMonStackDataService&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ dataFlow(String): Result&amp;lt;Map&amp;lt;String, String&amp;gt;&amp;gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2977.5" y="-8546" width="354" height="291" as="geometry" />
+          <mxGeometry x="-3911.5" y="-8561" width="354" height="291" as="geometry" />
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZlfX8P_zkPWYNGay26BR-54" target="ZlfX8P_zkPWYNGay26BR-55">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2852" y="-8187.5" as="sourcePoint" />
-            <mxPoint x="-2863.5" y="-8225.5" as="targetPoint" />
+            <mxPoint x="-3786" y="-8202.5" as="sourcePoint" />
+            <mxPoint x="-3797.5" y="-8240.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-57" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZlfX8P_zkPWYNGay26BR-54" target="ZlfX8P_zkPWYNGay26BR-59">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-2840.5" y="-7770" as="sourcePoint" />
-            <mxPoint x="-2800.5" y="-8059" as="targetPoint" />
+            <mxPoint x="-3774.5" y="-7785" as="sourcePoint" />
+            <mxPoint x="-3734.5" y="-8074" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-58" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZlfX8P_zkPWYNGay26BR-53" target="ZlfX8P_zkPWYNGay26BR-55">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-2949.5" y="-8462" as="sourcePoint" />
-            <mxPoint x="-3044.5" y="-8320" as="targetPoint" />
+            <mxPoint x="-3883.5" y="-8477" as="sourcePoint" />
+            <mxPoint x="-3978.5" y="-8335" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-59" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Interface&lt;/i&gt;&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; MonStackDataMapper&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ dataFlow(String): Result&amp;lt;Map&amp;lt;String, String&amp;gt;&amp;gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2917" y="-8117" width="233" height="185" as="geometry" />
+          <mxGeometry x="-3851" y="-8132" width="233" height="185" as="geometry" />
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-60" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;MonStackThresholdController&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ monStackThresholdService: IMonStackThresholdService&lt;/p&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ queryPageList(MonStackThreshold, Integer, Integer, HttpServletRequest): Result&amp;lt;IPage&amp;lt;MonStackThreshold&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ add(MonStackThreshold): Result&amp;lt;String&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ edit(MonStackThreshold): Result&amp;lt;String&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ delete(String): Result&amp;lt;String&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ deleteBatch(String): Result&amp;lt;String&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ queryById(String): Result&amp;lt;MonStackThreshold&amp;gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2545.5" y="-8759" width="426" height="177" as="geometry" />
+          <mxGeometry x="-3479.5" y="-8774" width="426" height="177" as="geometry" />
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-61" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;MonStackThresholdServiceImpl&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2449" y="-8236" width="233" height="88" as="geometry" />
+          <mxGeometry x="-3383" y="-8251" width="233" height="88" as="geometry" />
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-62" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;IMonStackThresholdService&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ save(T): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ saveBatch(Collection&amp;lt;T&amp;gt;, int): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ saveOrUpdateBatch(Collection&amp;lt;T&amp;gt;, int): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ removeById(Serializable): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ removeByIds(Collection&amp;lt;?&amp;gt;): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ updateById(T): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ update(Wrapper&amp;lt;T&amp;gt;): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ update(T, Wrapper&amp;lt;T&amp;gt;): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ saveOrUpdate(T): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getById(Serializable): T&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ listByIds(Collection&amp;lt;? extends Serializable&amp;gt;): List&amp;lt;T&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ list(): List&amp;lt;T&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ saveOrUpdate(T, Wrapper&amp;lt;T&amp;gt;): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2509.5" y="-8546" width="354" height="291" as="geometry" />
+          <mxGeometry x="-3443.5" y="-8561" width="354" height="291" as="geometry" />
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZlfX8P_zkPWYNGay26BR-61" target="ZlfX8P_zkPWYNGay26BR-62">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2384" y="-8187.5" as="sourcePoint" />
-            <mxPoint x="-2395.5" y="-8225.5" as="targetPoint" />
+            <mxPoint x="-3318" y="-8202.5" as="sourcePoint" />
+            <mxPoint x="-3329.5" y="-8240.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-64" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZlfX8P_zkPWYNGay26BR-61" target="ZlfX8P_zkPWYNGay26BR-66">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-2372.5" y="-7770" as="sourcePoint" />
-            <mxPoint x="-2332.5" y="-8059" as="targetPoint" />
+            <mxPoint x="-3306.5" y="-7785" as="sourcePoint" />
+            <mxPoint x="-3266.5" y="-8074" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-65" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZlfX8P_zkPWYNGay26BR-60" target="ZlfX8P_zkPWYNGay26BR-62">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-2481.5" y="-8462" as="sourcePoint" />
-            <mxPoint x="-2576.5" y="-8320" as="targetPoint" />
+            <mxPoint x="-3415.5" y="-8477" as="sourcePoint" />
+            <mxPoint x="-3510.5" y="-8335" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-66" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Interface&lt;/i&gt;&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;MonStackThresholdMapper&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ insert(T): int&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ deleteById(Serializable): int&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ deleteBatchIds(Collection&amp;lt;?&amp;gt;): int&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ updateById(T): int&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ update(T, Wrapper&amp;lt;T&amp;gt;): int&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ selectById(Serializable): T&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ selectBatchIds(Collection&amp;lt;? extends Serializable&amp;gt;): List&amp;lt;T&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ selectOne(Wrapper&amp;lt;T&amp;gt;): T&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ selectPage(P extends IPage&amp;lt;T&amp;gt;, Wrapper&amp;lt;T&amp;gt;): &amp;lt;P extends IPage&amp;lt;T&amp;gt;&amp;gt; P&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2449" y="-8117" width="233" height="186" as="geometry" />
+          <mxGeometry x="-3383" y="-8132" width="233" height="186" as="geometry" />
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-67" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;MonSystemDataController&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ monSystemDataService: IMonSystemDataService&lt;/p&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ queryPageList(MonSystemData, Integer, Integer, HttpServletRequest): Result&amp;lt;IPage&amp;lt;MonSystemData&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ add(MonSystemData): Result&amp;lt;String&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ edit(MonSystemData): Result&amp;lt;String&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ delete(String): Result&amp;lt;String&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ deleteBatch(String): Result&amp;lt;String&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ queryById(String): Result&amp;lt;MonSystemData&amp;gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2076" y="-8759" width="426" height="177" as="geometry" />
+          <mxGeometry x="-3010" y="-8774" width="426" height="177" as="geometry" />
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-68" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;MonSystemDataServiceImpl&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1979.5" y="-8236" width="233" height="88" as="geometry" />
+          <mxGeometry x="-2913.5" y="-8251" width="233" height="88" as="geometry" />
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-69" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;IMonSystemDataService&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ save(T): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ saveBatch(Collection&amp;lt;T&amp;gt;, int): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ saveOrUpdateBatch(Collection&amp;lt;T&amp;gt;, int): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ removeById(Serializable): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ removeByIds(Collection&amp;lt;?&amp;gt;): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ updateById(T): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ update(Wrapper&amp;lt;T&amp;gt;): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ update(T, Wrapper&amp;lt;T&amp;gt;): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ saveOrUpdate(T): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getById(Serializable): T&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ listByIds(Collection&amp;lt;? extends Serializable&amp;gt;): List&amp;lt;T&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ list(): List&amp;lt;T&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ saveOrUpdate(T, Wrapper&amp;lt;T&amp;gt;): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2040" y="-8546" width="354" height="291" as="geometry" />
+          <mxGeometry x="-2974" y="-8561" width="354" height="291" as="geometry" />
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZlfX8P_zkPWYNGay26BR-68" target="ZlfX8P_zkPWYNGay26BR-69">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1914.5" y="-8187.5" as="sourcePoint" />
-            <mxPoint x="-1926" y="-8225.5" as="targetPoint" />
+            <mxPoint x="-2848.5" y="-8202.5" as="sourcePoint" />
+            <mxPoint x="-2860" y="-8240.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-71" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZlfX8P_zkPWYNGay26BR-68" target="ZlfX8P_zkPWYNGay26BR-73">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-1903" y="-7770" as="sourcePoint" />
-            <mxPoint x="-1863" y="-8059" as="targetPoint" />
+            <mxPoint x="-2837" y="-7785" as="sourcePoint" />
+            <mxPoint x="-2797" y="-8074" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-72" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZlfX8P_zkPWYNGay26BR-67" target="ZlfX8P_zkPWYNGay26BR-69">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-2012" y="-8462" as="sourcePoint" />
-            <mxPoint x="-2107" y="-8320" as="targetPoint" />
+            <mxPoint x="-2946" y="-8477" as="sourcePoint" />
+            <mxPoint x="-3041" y="-8335" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZlfX8P_zkPWYNGay26BR-73" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Interface&lt;/i&gt;&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;MonSystemDataMapper&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ insert(T): int&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ deleteById(Serializable): int&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ deleteBatchIds(Collection&amp;lt;?&amp;gt;): int&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ updateById(T): int&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ update(T, Wrapper&amp;lt;T&amp;gt;): int&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ selectById(Serializable): T&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ selectBatchIds(Collection&amp;lt;? extends Serializable&amp;gt;): List&amp;lt;T&amp;gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ selectOne(Wrapper&amp;lt;T&amp;gt;): T&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ selectPage(P extends IPage&amp;lt;T&amp;gt;, Wrapper&amp;lt;T&amp;gt;): &amp;lt;P extends IPage&amp;lt;T&amp;gt;&amp;gt; P&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1979.5" y="-8117" width="233" height="181" as="geometry" />
+          <mxGeometry x="-2913.5" y="-8132" width="233" height="181" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
