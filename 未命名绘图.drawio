@@ -1,9 +1,86 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.12">
   <diagram name="第 1 页" id="2Wzhq5M_5Hy1fD70P3M6">
-    <mxGraphModel>
+    <mxGraphModel dx="2247" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-1" value="MLC" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="260" width="120" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-2" value="小营前置区-10.99.219.34" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="167" y="260" width="120" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-3" value="新宫云平台-10.22.117.13" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="353" y="260" width="120" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-4" value="Data4u所在机器&lt;br&gt;10.22.251.12" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="540" y="260" width="120" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MgQ1w65kkU0ooOh4Seem-6" target="MgQ1w65kkU0ooOh4Seem-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-6" value="RabbitMQ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368.5" y="380" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-7" value="udap" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="490" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="MgQ1w65kkU0ooOh4Seem-9" target="MgQ1w65kkU0ooOh4Seem-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-9" value="Zabbix Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369" y="630" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-10" value="&lt;font color=&quot;#4f4f4f&quot; face=&quot;pingfang sc, microsoft yahei, simhei, arial, simsun&quot; style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;b&gt;&lt;div&gt;ssh转发方案：&lt;/div&gt;&lt;div&gt;1、219.34可以通过ssh访问10.22.117.13&lt;/div&gt;&lt;div&gt;2、117.13可以访问10.22.251.12的相关端口&lt;/div&gt;&lt;div&gt;3、MLC 可以访问219.34的两个端口，15672及10051&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="30" y="110" width="610" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MgQ1w65kkU0ooOh4Seem-13" target="MgQ1w65kkU0ooOh4Seem-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-12" value="tcp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MgQ1w65kkU0ooOh4Seem-11">
+          <mxGeometry x="-0.0617" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-13" value="mlc转发程序&lt;br&gt;数据发送到&lt;br&gt;10.99.219.34的15672&lt;br&gt;erlang" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="5" y="360" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-14" value="http" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MgQ1w65kkU0ooOh4Seem-15" target="MgQ1w65kkU0ooOh4Seem-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-15" value="zabbix proxy&lt;br&gt;配置为主动模式" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry y="500" width="75" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MgQ1w65kkU0ooOh4Seem-18" target="MgQ1w65kkU0ooOh4Seem-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MgQ1w65kkU0ooOh4Seem-18" target="MgQ1w65kkU0ooOh4Seem-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-18" value="nginx转发" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="200" y="360" width="75" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="MgQ1w65kkU0ooOh4Seem-20" target="MgQ1w65kkU0ooOh4Seem-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-20" value="15672" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="127" y="460" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="MgQ1w65kkU0ooOh4Seem-22" target="MgQ1w65kkU0ooOh4Seem-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-22" value="10051" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="127" y="540" width="43" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MgQ1w65kkU0ooOh4Seem-24" target="MgQ1w65kkU0ooOh4Seem-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-24" value="rabbitMQ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MgQ1w65kkU0ooOh4Seem-25" value="htttp_proxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="630" width="75" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
